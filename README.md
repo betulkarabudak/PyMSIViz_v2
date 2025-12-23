@@ -23,4 +23,27 @@ The software enables inspection of spectra, ion image generation, region-of-inte
 PyMSIViz provides a standalone desktop graphical application for MSI data exploration.
 ```bash
 python main.py
+```
+## Installation
+### Requirements
+- Python ≥ 3.9
+- NumPy
+- SciPy
+- Matplotlib
+- PyQt5
+- pyimzML
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### AI-Assisted Spectrum Exploration
 
+PyMSIViz enables rapid exploration of global MSI spectra using AI-assisted peak detection.
+As shown above, dominant m/z features are automatically identified from the global mean spectrum
+(binned and sampled for efficiency) and can be directly used to generate ion images.
+
+This interactive workflow allows users to:
+- Inspect the global spectral profile of the dataset
+- Identify dominant peaks without manual peak picking
+- Instantly visualize corresponding ion images
+- Use detected peaks as starting points for ROI-based analysis
