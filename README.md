@@ -74,7 +74,7 @@ directly on ion images in PyMSIViz.
 
 
 <p align="center">
-  <img src="docs/pymsiviz_02.png" width="1000">
+  <img src="docs/pymsiviz_04.png" width="1000">
 </p>
 
 **Figure 4.** ROI-based statistical comparison using boxplots, violin plots, and exploratory volcano plots
